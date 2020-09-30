@@ -1,0 +1,19 @@
+<!doctype html>
+<title>{% block title %}31 for Spooktober{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1 class="title">Spooktober movie list</h1>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+    <div class="movies">
+      {% for m in movies %}
+          {% with movie=m %}
+              {% include "movie.html" %}
+          {% endwith %}
+      {% endfor %}
+    </div>
+  {% block content %}{% endblock %}
+</section>
