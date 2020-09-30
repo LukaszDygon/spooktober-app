@@ -1,5 +1,6 @@
 <!doctype html>
 <title>{% block title %}31 for Spooktober{% endblock %}</title>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <nav>
   <h1 class="title">Spooktober movie list</h1>
@@ -15,5 +16,4 @@
           {% endwith %}
       {% endfor %}
     </div>
-  {% block content %}{% endblock %}
 </section>
