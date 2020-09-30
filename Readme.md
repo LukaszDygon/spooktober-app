@@ -4,7 +4,9 @@ Watching films to get into the halloween mood over October is a fantastic way to
 spooky films to watch. One a day for each day of October.
 
 This project allows easy creation of a compact web app, containing posters and information for your list
-of films. I am planning to print mine as a poster.
+of films. I am planning to print mine as a poster. Kind of a poster poster.
+
+![poster poster](https://github.com/LukaszDygon/spooktober-app/blob/master/spooktober.png)
 
 ### Run instructions
 
