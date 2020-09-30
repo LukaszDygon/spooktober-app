@@ -1,6 +1,5 @@
 ### About
-Watching films to get into the halloween mood over October is a fantastic way to get into the spooky mood.
-2k20 means no parties this year, so to get into the festive spirit, I decided to create a big, fun list of
+Halloween 2k20 means no parties this year, so to get into the festive spirit, I decided to create a big, fun list of
 spooky films to watch. One a day for each day of October.
 
 This project allows easy creation of a compact web app, containing posters and information for your list
